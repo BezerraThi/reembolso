@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="41d03b64531392102e3150b0a0490e60" max_length="40" name="x_1588982_reembo_0_refound_flux" type="collection">
+        <element label="Reproval Reason" max_length="5000" name="reproval_reason" type="string"/>
+        <element label="Expanse Date" max_length="40" name="expanse_date" type="glide_date"/>
+        <element label="Refund Value" max_length="40" name="refund_value" type="currency"/>
+        <element label="Refund Value in Dolar" max_length="40" name="refund_value_in_dolar" type="currency"/>
+        <element label="Refund Category" max_length="32" name="refund_category" reference="x_1588982_reembo_0_refund_categories" type="reference"/>
+    </element>
+</database>
