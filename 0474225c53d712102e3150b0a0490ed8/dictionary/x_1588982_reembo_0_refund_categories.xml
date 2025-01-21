@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e0d4f210535b12102e3150b0a0490e0a" label="refund categories" max_length="40" name="x_1588982_reembo_0_refund_categories" type="collection">
+        <element label="Refund category" max_length="250" name="refound_category" type="string"/>
+        <element label="Department" max_length="250" name="department" type="string"/>
+    </element>
+</database>

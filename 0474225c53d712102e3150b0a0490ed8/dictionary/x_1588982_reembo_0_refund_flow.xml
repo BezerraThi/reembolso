@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f1733a9c531b12102e3150b0a0490e4d" label="refund flow" max_length="40" name="x_1588982_reembo_0_refund_flow" type="collection">
+        <element label="Reproval reason" max_length="5000" name="reproval_reason" type="string"/>
+        <element label="Refund value" max_length="20" name="refund_value" type="currency"/>
+        <element label="Refund value in dolar" max_length="20" name="refund_value_in_dolar" type="currency"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reproved" sequence="2" value="reproved"/>
+                <element inactive_on_update="false" label="Awaiting payment" sequence="3" value="awaiting_payment"/>
+                <element inactive_on_update="false" label="Awaiting manager approval" sequence="0" value="awaiting_manager_approval"/>
+                <element inactive_on_update="false" label="Payment approved" sequence="4" value="payment_approved"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Payment repproved" sequence="5" value="payment_repproved"/>
+            </choice>
+        </element>
+        <element label="Refund Category" max_length="32" name="refund_category" reference="x_1588982_reembo_0_refund_categories" type="reference"/>
+        <element label="Expense date" max_length="255" name="expense_date" type="glide_date"/>
+        <element label="Description" max_length="250" name="description" type="string"/>
+        <index name="index">
+            <element name="refund_category"/>
+        </index>
+    </element>
+</database>
