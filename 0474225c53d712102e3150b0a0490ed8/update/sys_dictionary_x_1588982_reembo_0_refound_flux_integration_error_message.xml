@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="refund_value_in_dolar" table="x_1588982_reembo_0_refound_flux">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="integration_error_message" table="x_1588982_reembo_0_refound_flux">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Refund Value in Dolar</column_label>
+        <column_label>Integration Error Message</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,15 +21,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>refund_value_in_dolar</element>
+        <element>integration_error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Decimal">decimal</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>17</max_length>
+        <max_length>40</max_length>
         <name>x_1588982_reembo_0_refound_flux</name>
         <next_element/>
         <primary>false</primary>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 21:03:16</sys_created_on>
-        <sys_name>Refund Value in Dolar</sys_name>
+        <sys_created_on>2025-01-23 19:04:17</sys_created_on>
+        <sys_name>Integration Error Message</sys_name>
         <sys_package display_value="reembolso - Thiago" source="x_1588982_reembo_0">0474225c53d712102e3150b0a0490ed8</sys_package>
         <sys_policy/>
         <sys_scope display_value="reembolso - Thiago">0474225c53d712102e3150b0a0490ed8</sys_scope>
-        <sys_update_name>sys_dictionary_x_1588982_reembo_0_refound_flux_refund_value_in_dolar</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1588982_reembo_0_refound_flux_integration_error_message</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 18:43:53</sys_updated_on>
+        <sys_updated_on>2025-01-23 19:04:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

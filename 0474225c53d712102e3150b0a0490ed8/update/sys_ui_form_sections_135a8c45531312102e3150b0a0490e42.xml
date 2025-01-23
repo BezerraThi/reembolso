@@ -28,6 +28,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-22 17:22:06</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-23 19:05:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b9bed95539712102e3150b0a0490eb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588982_reembo_0_refound_flux" name="x_1588982_reembo_0_refound_flux" sys_domain="global" view="Default view">135a8c45531312102e3150b0a0490e42</sys_ui_form>
+            <sys_ui_section caption="Integration Status" display_value="Integration Status" name="x_1588982_reembo_0_refound_flux" sys_domain="global" view="Default view">979bed95539712102e3150b0a0490eaf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-23 19:05:28</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1588982_reembo_0_refound_flux</name>
             <roles/>
